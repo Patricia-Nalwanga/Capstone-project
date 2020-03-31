@@ -1,0 +1,103 @@
+body {
+    background-image: url(/Capstone-project/food2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+    
+  
+  }
+
+.nav-bar{
+    background-color: rgb(71, 37, 37);
+    text-align: right;
+    position: relative;
+    max-width: 100%;
+}
+.nav-bar a:hover{
+    color: skyblue;
+
+}
+h1{
+    font-family: 'Concert One', cursive;
+     font-size:70px;
+     color: #8B0000;
+}
+
+#about{
+    position: absolute;
+    left: 800px;
+    top: 20%;
+    max-width: 100%;
+   
+}
+p{
+    font-size: 25px;
+    color:#FFD700;
+}
+ #middle{
+    position: relative;
+    top: 10px;
+   max-width: 50%;
+    text-align:center;
+}
+#middle a:hover{
+    background-color: #2F4F4F;
+}
+   
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0;
+
+}
+
+li{
+    display: inline;
+}
+li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    font-size:25px ;
+    color: yellow;
+ }
+  #middle a{
+    border-style: solid;
+    border-width: 5px;
+    border-color: orange;
+    border-radius: 15px;
+    background: whitesmoke;
+    padding: 5px 70px;
+    color:black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+  }
+a.email{
+    text-decoration: none;
+}
+hr{
+    border-style: solid;
+}
+p.slogan{
+    color:black;
+    font-family: 'Parisienne', cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
+    max-width: 100%;
+    height:auto;
+}
+#end{
+    position: absolute;
+    padding: 30%;
+    max-width: 100%;
+    font-size: 25px;
+
+}
+ 
