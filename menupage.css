@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    padding:20px;
+
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color: orchid;
+}
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    
+}
+.flex-container > div {
+    width: 100px;
+    margin:60px;
+    text-align: center;
+
+}
+#flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+#flex-container > div{
+    width: 50px;
+    margin: 60px;
+
+   
+}
+h2{
+    text-align: center;
+}
+
+.second-one{
+    background-color: red;
+    position:relative;
+    left:10px;
+
+}
+    
