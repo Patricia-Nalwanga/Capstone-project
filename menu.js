@@ -1,1 +1,0 @@
-var removeButton = document.getElementsByClassName(second-one)

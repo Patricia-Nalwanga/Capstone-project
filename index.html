@@ -14,8 +14,20 @@
     <header></header>
     <div class="nav-bar" id="myNavBar">
         <ul>
-         <li><a href="#log in" target="_blank">log in</a></li>
-        <li><a href="#sign up" target="_blank">sign up</a></li>
+         <li class="dropdown">login
+             <div class="dropdown-content"
+             <form >
+                <label for="fname">username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <button type="button" onclick="login()">LOGIN</button>
+              </form>
+             </div>
+             </li>
+        
+
+        <li><a href="signup.html" target="_blank">sign up</a></li>
     </ul>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         </a>
@@ -37,12 +49,14 @@
     <a href="" target="_blank">MENU</a>
 </div>
 
-</div>
+
 
  <div id="end">
 <footer>Powered by <a href="https://outbox.co.ug/"><img src="https://www.appsafrica.com/wp-content/uploads/2015/02/wpid-wp-1424168832605.jpeg" alt="Outbox"></a>
   <br> &copy 2020 Edu-Restaurant. All Rights Reserved
     </footer>
+    </div>
+    <div>
     
 </body>
 </html>
