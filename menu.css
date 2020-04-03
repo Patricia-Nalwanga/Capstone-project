@@ -1,0 +1,50 @@
+body{
+    background-image:url(chefy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(75, 8, 75);
+}
+.heading{
+        color: brown;
+        margin-left:60px;
+        font-family: 'Courier New', Courier, monospace;
+}
+label{
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.price{
+    color:dark brown
+}
+.item{
+    margin-left:60px;
+    margin-right: 150px;
+}
+input{
+    margin-top:20px;
+}
+.price{
+    float: right;
+    margin-right: 180px;
+    margin-top: 15px;;
+}
+.float{
+	position:fixed;
+	width:160px;
+	height:40px;
+	top:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+    border-radius:10px;
+    text-decoration: none;
+    text-align:center;
+    align-items: center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+    margin-top:22px;
+    font-size: 15px;
+    font-weight: 300;
+}

@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+h1{
+    color: darkgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 2px 16px;
+}
