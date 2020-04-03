@@ -48,3 +48,9 @@ input{
     font-size: 15px;
     font-weight: 300;
 }
+a{
+    font-size: 25px;
+    color: yellowgreen;
+    text-decoration: none;
+    
+}
