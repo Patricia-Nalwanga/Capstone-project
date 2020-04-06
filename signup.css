@@ -1,10 +1,30 @@
+html {
+
+    background: url(images/faded.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 body{
     text-align: center;
+    color: cyan;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
     color: darkgray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container{
+
+.required{
     padding: 2px 16px;
+}
+input{
+    border-style: solid;
+    border-color: darkgrey;
+    
+}
+img{
+    border-radius: 50%;
 }
