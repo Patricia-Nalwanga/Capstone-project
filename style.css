@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    
 }
 
 
@@ -10,13 +9,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    margin: 0;
+   
 }
   
   .nav-bar{
     background-color: rgb(71, 37, 37);
     text-align: right;
     overflow: hidden;
+    
     
    
 }
@@ -36,16 +36,13 @@ h1{
      color: #8B0000;
 }
 
-#about{
-    position: absolute;
-    left: 800px;
-    top: 23%;
-    max-width: 100%;
-   
-}
+
+
 p{
     font-size: 25px;
     color:#FFD700;
+    font-family: 'Concert One', cursive;
+    
 }
  
    
@@ -73,27 +70,26 @@ li{
 li a {
     color: yellow;
     text-decoration: none;
- }
-  #middle a{
-    border-style: solid;
-    border-width: 5px;
-    border-color: orange;
-    border-radius: 15px;
-    background: whitesmoke;
-    padding: 5px 70px;
-    color:black;
-    text-decoration: none;
-    font-weight: lighter;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 25px;
-  }
-  p.slogan{
+}
+p.slogan{
     color:white;
     font-family: 'Parisienne', cursive;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
 }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      [class*="col-"] {
+        float: right;
+        padding: 15px;
+      }
+      
+  
 a.email{
     text-decoration: none;
 }
@@ -111,7 +107,8 @@ img{
     padding: 30%;
     max-width: 100%;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: bolder;
+    font-family:'Concert One', cursive;
 
 }
 
