@@ -54,3 +54,13 @@ a{
     text-decoration: none;
     
 }
+.confirm{
+    font-size: 15px;
+    background-color: red;
+    border-radius:10px;
+    float: right;
+    width:160px;
+	height:40px;
+	top:40px;
+	right:40px;
+}
